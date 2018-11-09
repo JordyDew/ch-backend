@@ -13,7 +13,7 @@ class werkIndex
 	{
 		// deze waarden zijn voor de snelheid om de proof of concept te maken er vast in geprogrammeerd. In de feitelijke bedoeling is het
 		$waarden = 
-		'{"Werk en economie":
+		'"Werk en economie":
 			{
 			"Werk_economie":84,
 			"horeca":5,
@@ -21,8 +21,7 @@ class werkIndex
 			"supermarkt" :4,
 			"industrie" :3,
 			"religie" :5
-			}
-		}	';
+			}';
 		return $waarden;
 	}
 }	

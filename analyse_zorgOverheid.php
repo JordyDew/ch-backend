@@ -13,7 +13,7 @@ class zorgIndex
 	private function generateZorg()
 	{
 		$waarden=
-		'{"Zorg_overheid":
+		'"Zorg_overheid":
 			{
 			"Zorg_overheid":83,
 			"ziekenhuis":3,
@@ -23,7 +23,7 @@ class zorgIndex
 			"school":5,
 			"faciliteiten":4
 			}
-		}';
+		';
 		return $waarden;
 	}
 }	//php niet gesloten vanwege include in andere file
