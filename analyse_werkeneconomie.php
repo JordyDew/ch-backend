@@ -23,6 +23,8 @@ class werkIndex
 		'industrie' =>"3",
 		'religie' =>"5"
 		);	
+		
+		return $waarden;
 	}
 }	
 	
