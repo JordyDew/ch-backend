@@ -10,3 +10,5 @@ $zorg = new zorgIndex();
 $locatie = $_GET['locatie'];
 
 $data = array_merge($milieu->get(), $mobi->get(), $werk->get(), $zorg->get())
+
+echo json_encode($data);
