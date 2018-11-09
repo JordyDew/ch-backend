@@ -10,5 +10,5 @@ $zorg = new zorgIndex();
 
 $data = "{".$zorg->get().",".$mobi->get().",".$werk->get().",".$milieu->get()."}";
 
-echo $data;
+echo json_encode($zorg->get());
 ?>
