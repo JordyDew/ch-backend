@@ -1,6 +1,6 @@
 <?php
 
-class natuur
+class mobiliteit
 {
 
     public function get()
@@ -21,4 +21,3 @@ class natuur
         return $waarden;
     }
 }
-?>
