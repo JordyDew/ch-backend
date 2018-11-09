@@ -4,9 +4,9 @@ class werkIndex
 	public:
 	//opvragen van de werkIndex array
 	function get()
-	{
-		return generateWerk();
-	}
+{
+    return generateWerk();
+}
 	
 	private:
 	
