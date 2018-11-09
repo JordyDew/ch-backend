@@ -15,7 +15,7 @@ class zorgIndex
 		$waarden=
 		'{"Zorg_overheid":
 			{
-			"Zorg_overheid":83%,
+			"Zorg_overheid":83,
 			"ziekenhuis":3,
 			"apotheek":5,
 			"huisarts":5,
