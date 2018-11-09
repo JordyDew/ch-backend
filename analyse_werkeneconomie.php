@@ -3,17 +3,10 @@ class werkIndex
 {
 	
 	//opvragen van de werkIndex array
-<<<<<<< HEAD
-	function get()
-{
-    return generateWerk();
-}
-=======
 	public function get()
 	{
 		return generateWerk();
 	}
->>>>>>> b3396719b55dad1ecb8145f3687a81eef3a270c5
 	
 	
 	private function generateWerk()
