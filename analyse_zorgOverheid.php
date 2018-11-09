@@ -5,7 +5,7 @@ class zorgIndex
 	//opvragen van de zorgIndex array
 	public function get()
 	{
-		return $this->generateWerk();
+		return $this->generateZorg();
 	}
 	
 	
