@@ -1,0 +1,25 @@
+1)werk en economie
+	horeca
+	bank
+	supermarkt
+	industrie
+2)zorg/overheid
+	ziekenhuis
+	apotheker
+	huisdoktor
+	stadhuis
+	school
+	faciliteiten(bib,sport,jeugdhuis)
+3)milieu&natuur
+	park&speelplein
+	bos
+	luchtkwaliteit
+	containerpark
+	laadpalen
+4)mobiliteit
+	bos
+	trein
+	snelheidslimiet
+	parkeergelegenheid
+	fietspaden
+	afstand tot grootsteden
