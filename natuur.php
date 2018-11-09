@@ -12,8 +12,7 @@ class natuur
             'bos': 3,
             'luchtkwaliteit': 2,
             'containerpark': 3,
-            'laadpalen': 3
-        );
+            'laadpalen': 3}}";
 
         return $waarden;
     }

@@ -12,7 +12,7 @@ class mobiliteit
             'trein': 4,
             'snelheidslimiet': 3,
             'afstand_tot_grootsteden': 3,
-            'laadpalen': 3}}"
+            'laadpalen': 3}}";
 
         return $waarden;
     }

@@ -8,7 +8,7 @@ $mobi = new mobiliteit();
 require_once('analyse_zorgOverheid.php');
 $zorg = new zorgIndex();
 
-$data = array_merge($milieu->get(), $mobi->get(), $werk->get(), $zorg->get());
+$data = "{'gentpoort':".$zorg->get().",".$mobi->get().",".$werk->get().",".$milieu->get()."}";
 
-echo json_encode($data);
+echo $data;
 ?>
