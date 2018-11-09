@@ -23,7 +23,7 @@ class zorgIndex
 			'school':'5',
 			'faciliteiten' :'4'
 			}
-		}"
+		}";
 		return $waarden;
 	}
 }	//php niet gesloten vanwege include in andere file
