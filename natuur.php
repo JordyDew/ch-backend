@@ -7,12 +7,10 @@ class natuur
     {
         // The values of the environment parameters (hard-coded)
         $waarden = array(
-            'gentpoort'
-        );
-        $waarden['gentpoort'] = array(
             'milieu'
         );
-        $waarden['gentpoort']['milieu'] = array(
+        $waarden['milieu'] = array(
+            'milieu' => "64", 
             'park_speelplein' => "5",
             'bos' => "3",
             'luchtkwaliteit' => "2",
@@ -20,7 +18,7 @@ class natuur
             'laadpalen' => "3"
         );
 
-        return json_encode($waarden);
+        return $waarden;
     }
 }
 ?>
