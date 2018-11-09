@@ -5,7 +5,7 @@ class werkIndex
 	//opvragen van de werkIndex array
 	public function get()
 	{
-		return generateWerk();
+		return $this->generateWerk();
 	}
 	
 	
